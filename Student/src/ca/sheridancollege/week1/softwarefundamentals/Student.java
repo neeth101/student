@@ -12,7 +12,25 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private int git;
+    private String project; 
 
+    public int getGit() {
+        return git;
+    }
+
+    public void setGit(int git) {
+        this.git = git;
+    }
+
+    public String getProject() {
+        return project;
+    }
+
+    public void setProject(String project) {
+        this.project = project;
+    }
+    
     /**
      * Get the value of name
      *
