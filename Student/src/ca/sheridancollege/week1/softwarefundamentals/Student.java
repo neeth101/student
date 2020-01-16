@@ -14,6 +14,7 @@ public class Student {
     private String name;
     private int git;
     private String project; 
+    private int rand;
 
     public int getGit() {
         return git;
